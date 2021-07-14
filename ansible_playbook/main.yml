@@ -1,0 +1,6 @@
+---
+- name: Exercise to configure infrastructure and copy production files
+  hosts: all
+  user: ubuntu
+  roles:
+  - setup
